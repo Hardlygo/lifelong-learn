@@ -6,7 +6,7 @@
 >>3. 输入 *```git add .```* 然后通过git add将所有文件提交到暂存区。
 >>4. ```git commit -m '说明'```提交到版本库中即可。到现在为止就在本地创建的本地仓库，下面要做把本地仓库和远程仓库关联 
 >>5. 到github项目那里右上角 点击clone or download  按钮 复制其中http连接 *```git remote add origin https://github.com/YOURUSERNAME/YOURREPOSITORY.git```* 。此时注意在将本地仓库与GitHub网站上的仓库进行关联后，便可进行推送了，但是在第一次进行推送时，需要注意的是，GitHub网站上的仓库并非是空的，我们在创建时创建了一个README文档，因此需要将两者进行合并才行。
->> 6. *```git pull --rebase origin master```* 合并
+>> 6. *```git branch -M main```*  ，  *```git pull --rebase origin master```* 合并（github 没有master分支了，变为main）
 >>7. 最后，在进行推送即可。*```git push -u origin master```* 这个带有-u这个参数是指，将master分支的所有内容都提交，第一次关联之后后边你再提交就可以不用这个参数了，之后你的每一次修改，你就可以只将你修改push就好了
 >> 8.维护时用到的命令   <br/>  ``` 
 git add -A  将文件的修改上传到暂存区      
