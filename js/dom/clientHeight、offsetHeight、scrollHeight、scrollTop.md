@@ -1,7 +1,7 @@
 
 >由于长时间对clientHeight、offsetHeight、scrollHeight、scrollTop这几个js-dom不理解，处于半迷糊状态，现在就仔仔细细实验整理一波，希望能做个总结，方便以后能快速理解别人代码和做出自己想要的。   
 
-###结论
+### 结论
 
 1. `clientHeight=height+padding-top+padding-bottom`
 >`下面main这个div的clientHeight：1060px=1000px(height)+2x30px(padding-top+padding-bottom) `
