@@ -32,7 +32,7 @@ offsetX/Y获取到是触发点相对被触发dom的左上角距离(包括padding
  4. 元素坐标：`getBoundingClientRect` 
     [到这里去看，一定要点进去看，很重要，很详细的介绍了getBoundingClientRect](https://zh.javascript.info/coordinates#yuan-su-zuo-biao-getboundingclientrect)
 
-    方法 `elem.getBoundingClientRect() `返回最小矩形的窗口坐标，该矩形将 elem 作为内建 DOMRect 类的对象。
+    方法 `elem.getBoundingClientRect() `返回最小矩形的窗口坐标，该矩形将 elem 作为内建 DOMRect 类的对象,**getBoundingClientRect所返回的坐标包含元素的内边距和边框，不包含外边距**。兼容性很好，非常好用**。
 
 主要的 DOMRect 属性：
 
