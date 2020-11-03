@@ -77,4 +77,5 @@ left/right — 左/右矩形边缘的 X 坐标。
 [HTML中常见的各种位置距离(clientTop clientLeft clientWidth ClientHeight offsetleft offsettop offsetwidth offset](https://blog.csdn.net/zxf13598202302/article/details/51162664)
 
 [event对象的offsetX, clientX, pageX, screenX，你能分清吗](https://www.jianshu.com/p/9afff6038bf5)
-![enter image description here](https://upload-images.jianshu.io/upload_images/706345-a4d8d293324e9bf2.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+
+![看这图理解event对象的坐标](https://upload-images.jianshu.io/upload_images/706345-a4d8d293324e9bf2.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
