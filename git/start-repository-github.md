@@ -81,6 +81,23 @@ git push origin master Git会把master分支推送到远程库对应的远程分
 ```
 未完待更新...
 
+[2020-12最新的方法](https://www.cnblogs.com/VeraYao/p/11057105.html)
+```
+ git init                                    // 初始化本仓库
+
+  git remote add origin 远程仓库地址           // 链接远程仓库
+
+  git add .                                   // 将本地代码放入暂存区
+
+  git commit -m "提交说明"                     // 将暂存区代码提交至版本库
+
+  git checkout -b [要创建的分支名]             // 创建新分支并切换到新分支
+
+  git branch                                   // 查看当前分支
+
+  git push origin [要创建的分支名]              // 将代码提交到远程仓库上    
+```
+
 
 
 
