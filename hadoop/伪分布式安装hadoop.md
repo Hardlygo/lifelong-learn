@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-12 08:52:13
- * @LastEditTime: 2021-04-12 16:35:29
+ * @LastEditTime: 2021-04-12 16:40:27
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
 -->
@@ -27,7 +27,8 @@
     1.是通过到官网下载安装包，然后解压到相应的文件夹，再配置环境变量，下载的方法又有两个：
         一、通过wget+url的方式，下载到当前命令行所在目录 。
         二、手工到官网下载压缩包，然后再通过命令解压缩到相应的文件夹。
-    2.通过 'sudo apt install openjdk-14-jdk` 注意是JDK，不是jre
+    2.通过 'sudo apt install openjdk-14-jdk` 注意是JDK，不是jre 
+这里可以[参考这里](https://blog.csdn.net/xiaosaerjt/article/details/106033324)
 
 ![sudo apt install openjdk-11-jdk](https://i.loli.net/2021/04/12/q4bL1RZzAhPYxcF.jpg)
 这里用` sudo apt install openjdk-11-jdk` 不用 headless
@@ -269,3 +270,5 @@
 2. [ubuntu 设置主机名](https://blog.csdn.net/qq_45069279/article/details/105947443?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522161702452416780269845142%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=161702452416780269845142&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-19-105947443.first_rank_v2_pc_rank_v29&utm_term=hadoop+%E6%90%AD%E5%BB%BA#31___279)
 3. [ubuntu 修改 root 密码](https://blog.csdn.net/ma_jiang/article/details/90543465)
 4. [ubuntu 查看关闭开启防火墙](https://blog.csdn.net/weixin_34293246/article/details/92148586)
+5. [安装过程参考的文章一](https://blog.csdn.net/qq_45069279/article/details/105947443?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522161702452416780269845142%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=161702452416780269845142&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-19-105947443.first_rank_v2_pc_rank_v29&utm_term=hadoop+%E6%90%AD%E5%BB%BA) 
+6. [安装过程参考的文章二](https://www.cnblogs.com/biehongli/p/7026809.html)
