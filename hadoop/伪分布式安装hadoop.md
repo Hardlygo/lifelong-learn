@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-12 08:52:13
- * @LastEditTime: 2021-04-12 16:23:22
+ * @LastEditTime: 2021-04-12 16:35:29
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
 -->
@@ -116,7 +116,7 @@
 ### 8、 hadoop 安装与配置
 
 - #### 8.1 hadoop 安装
-          1.下载
+          1.下载，这个网站里面有各个版本的hadoop包 https://archive.apache.org/dist/hadoop/common/ 我用的是stable版本。
               wget -O hadoop330 https://archive.apache.org/dist/hadoop/common/stable/hadoop-3.3.0.tar.gz
               根据连接下载，下遭到的hadoop330文件夹内
           2.进到目录进行解压
